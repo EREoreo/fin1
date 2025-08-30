@@ -80,7 +80,7 @@ function App() {
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
-              <span>Фильтры: объем Больше ,  300K, цена  больше $5</span>
+              <span>Фильтры: объем Больше ,  300K, цена от 3 до 80</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2">•</span>
