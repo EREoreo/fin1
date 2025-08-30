@@ -4,8 +4,8 @@ function App() {
   const [message, setMessage] = useState('');
 
   // Прямые ссылки на Finviz
-  const NASDAQ_URL = "https://elite.finviz.com/export.ashx?v=152&f=exch_nasd,ind_stocksonly,sh_avgvol_o300,sh_price_o5&c=1&auth=56d25c88-21a3-47a8-ad5a-605f01591d43";
-  const NYSE_URL = "https://elite.finviz.com/export.ashx?v=152&f=exch_nyse,ind_stocksonly,sh_avgvol_o300,sh_price_o5&c=1&auth=56d25c88-21a3-47a8-ad5a-605f01591d43";
+  const NASDAQ_URL = "https://elite.finviz.com/export.ashx?v=152&f=exch_nasd,ind_stocksonly,sh_avgvol_o300,sh_price_3to80&ft=4&auth=56d25c88-21a3-47a8-ad5a-605f01591d43";
+  const NYSE_URL = "https://elite.finviz.com/export.ashx?v=152&f=exch_nyse,ind_stocksonly,sh_avgvol_o300,sh_price_3to80&ft=4&auth=56d25c88-21a3-47a8-ad5a-605f01591d43";
 
   // Функция для открытия ссылки
   const downloadFile = (url, exchange) => {
